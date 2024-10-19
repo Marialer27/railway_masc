@@ -148,7 +148,7 @@ WSGI_APPLICATION = 'masc.wsgi.application'
 
 DATABASES = {
    'default': dj_database_url.config(
-        default='postgresql://abm_masc_user:PdAqotcKgnDF86X3e96zoLOeNlsavsDG@dpg-cs8q3e68ii6s73fhu0k0-a/abm_masc',
+        default='postgresql://postgres:mYJenObiJRRRGPHYilHFgFYaNSjaKmCB@postgres.railway.internal:5432/railway',
         conn_max_age=600
     )
 }
