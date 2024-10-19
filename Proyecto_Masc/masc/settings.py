@@ -1,8 +1,8 @@
 
 from pathlib import Path
 #from .db import MySQL
-import dj_database_url
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
